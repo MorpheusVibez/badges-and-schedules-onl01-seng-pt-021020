@@ -7,8 +7,8 @@ def batch_badge_creator(attendees)
   count = 0 
   
   badges.each |num| do
-    count += 1 
-      "Hello, my name is #{badges}."
+     "Hello, my name is #{badges}."
+     count += 1
   end
   badges
 end
