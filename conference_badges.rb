@@ -3,12 +3,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  badges = []
-  count = 0 
- 
-  attendees.each do
-   attendees["Hello, my name is #{badges}"]
-    count += 1
+  attendees.each do |name|
+   "Hello, my name is #{name}"
+    
   end
-  badges
+  attendees
 end
