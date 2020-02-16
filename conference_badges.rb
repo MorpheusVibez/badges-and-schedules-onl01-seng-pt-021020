@@ -4,5 +4,6 @@ end
 
 def batch_badge_creator(attendees)
   badges = attendees
-  "#{badges}"
+  count = 0 
+  badges.each
 end
