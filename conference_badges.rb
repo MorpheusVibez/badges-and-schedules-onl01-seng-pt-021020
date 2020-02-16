@@ -6,7 +6,7 @@ def batch_badge_creator(attendees)
   count = 0 
   
   
-  return "#{badge}"
+  return "#{badges}"
     count += 1
   
 end
