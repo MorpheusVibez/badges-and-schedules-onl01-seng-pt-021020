@@ -10,4 +10,5 @@ def batch_badge_creator(attendees)
     count += 1 
       "Hello, my name is #{badges[]}."
   end
+  badges
 end
