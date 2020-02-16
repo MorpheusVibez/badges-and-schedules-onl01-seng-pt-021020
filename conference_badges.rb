@@ -5,7 +5,7 @@ end
 def batch_badge_creator(attendees)
   count = 0 
   
-  while count < 7
+  attendees.each 
   
   return "Hello, my name is #{attendees[]}"
     count += 1
