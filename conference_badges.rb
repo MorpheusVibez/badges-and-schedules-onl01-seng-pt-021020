@@ -6,8 +6,8 @@ def batch_badge_creator(attendees)
   count = 0 
   
   attendees.each 
-     "Hello, my name is #{attendees}."
+    puts "Hello, my name is #{attendees}."
      count += 1
   end
-
+attendees
 end
