@@ -7,7 +7,7 @@ def batch_badge_creator(attendees)
   count = 0 
  
   array.each do
-   new_array << attendees[count] puts "Hello, my name is #{attendees}"
+   new_array << attendees["Hello, my name is #{attendees}"]
     count += 1
   end
   new_array
