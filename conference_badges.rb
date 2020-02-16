@@ -10,5 +10,5 @@ def batch_badge_creator(attendees)
    badges << attendees["Hello, my name is #{badges}"]
     count += 1
   end
-  new_array
+  badges
 end
