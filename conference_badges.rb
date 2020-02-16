@@ -3,10 +3,5 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  count = 0 
-  
-  
   return "#{badges}"
-    count += 1
-  
 end
