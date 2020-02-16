@@ -7,7 +7,7 @@ def batch_badge_creator(attendees)
   count = 0 
  
   attendees.each do
-   badges << attendees["Hello, my name is #{badges}"]
+   attendees["Hello, my name is #{badges}"]
     count += 1
   end
   badges
