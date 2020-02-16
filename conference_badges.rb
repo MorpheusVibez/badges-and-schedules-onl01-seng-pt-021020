@@ -3,11 +3,12 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+  array_names = []
   count = 0 
   
   attendees.each 
     puts "Hello, my name is #{attendees}."
      count += 1
   end
-attendees
+
 end
