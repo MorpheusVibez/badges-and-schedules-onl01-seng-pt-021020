@@ -5,8 +5,9 @@ end
 def batch_badge_creator(attendees)
   count = 0 
   
-  attendees.each do |badge_name|
-  return "Hello, my name is #{badge_name}"
+  while count < 7
+  
+  return "Hello, my name is #{attendees}"
     count += 1
   end
 end
