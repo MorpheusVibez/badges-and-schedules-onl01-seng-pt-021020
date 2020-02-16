@@ -3,11 +3,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  new_array = []
+  badges = []
   count = 0 
  
   array.each do
-   new_array << attendees["Hello, my name is #{attendees}"]
+   badges << attendees["Hello, my name is #{attendees}"]
     count += 1
   end
   new_array
