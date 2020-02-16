@@ -6,7 +6,7 @@ def batch_badge_creator(attendees)
   array_names = []
   count = 0 
   
-  attendees.each
+  attendees.each do
   array_names << attendees 
     puts "Hello, my name is #{attendees}."
      count += 1
