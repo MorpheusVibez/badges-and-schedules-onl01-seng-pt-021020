@@ -3,6 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.each_with_index {"Hello, my name is #{attendees}"}
+  attendees.each do 
+    {"Hello, my name is #{attendees}"}
   attendees
 end
