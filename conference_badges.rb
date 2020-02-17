@@ -6,5 +6,5 @@ def batch_badge_creator(attendees = " ")
   if badge_maker = " "
     return "Hello, my name is Johnny"
   else
-    badges
+    return badges
 end
