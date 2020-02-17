@@ -3,11 +3,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.collect do |name|
+  attendees.each_in_index do |name|
     badge_maker(name)
   end
 end
 
-def assign_rooms(attendees)
-  return room_assignments
-end
