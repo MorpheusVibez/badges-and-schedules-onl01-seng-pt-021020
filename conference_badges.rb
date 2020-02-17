@@ -3,7 +3,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-    attendees
+    attendees.index[0] = "Hello, my name is "
 end
 
 def assign_rooms(attendees)
