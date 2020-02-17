@@ -10,7 +10,7 @@ end
 
 def assign_rooms(attendees)
   rooms = 0 
-  attendees.each do |name|
+  attendees.collect do |name|
     "Hello, #{name}! You'll be assigned to room #{rooms}!"
     rooms += 1
   end
